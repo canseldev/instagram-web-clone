@@ -1,0 +1,96 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(0, 0, 0 );
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.menu {
+    max-width: 250px;
+    width: 100%;
+    border-right: 1px solid gray;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+}
+.menu .logo {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.menu .container ul {
+    list-style: none;
+}
+.menu .container ul  li a {
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 14px;
+}
+.menu .container ul  li a i {
+    font-size: 28px;
+}
+.menu .foot ul {
+    list-style: none;
+}
+.menu .foot ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+    font-size: 14px;
+}
+.menu .foot ul li a i {
+    font-size: 28px;
+}
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 250px;
+}
+main .main .top-info {
+    border-bottom: 1px solid gray;
+}
+main .main .top-info ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+main .main .top-info ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+main .main .story ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+main .main .story ul li a {
+    text-decoration: none;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    justify-content: center;
+    text-align:center;
+}
+main .main .story ul li a span {
+    font-size: 10px;
+    padding: 5px;
+}
